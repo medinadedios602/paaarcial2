@@ -1,0 +1,73 @@
+body{
+	background: url("../img/estrellas.webp");
+	font-family: berlin sans fb;
+}
+
+header, main, footer{
+	background: white;
+	width: 70%;
+	margin:10px auto;
+	padding: 15px;
+	border-radius: 20px;
+}
+
+
+/*Centrar texto en header y footer*/
+
+
+header, footer{text-align: center}
+
+/*Texto de caja main, justificado y con mayor interlieneado*/
+
+
+main p{
+	text-align: justify;
+	line-height: 32px;
+
+
+}
+
+
+main:hover{
+	background: pink;
+	color: darkred;
+}
+
+header:hover{
+	background: lightgreen;
+	color: darkblue;
+}
+
+footer:hover{
+	background: mediumpurple;
+	color: black;
+}
+
+footer .botonregreso{
+
+	border: 2px solid #0077bff;
+	border-radius: 6px;
+	background-color: black;
+	display: inline-block;
+	margin: 10px;
+	overflow: hidden;
+	transition: all 0.3s ease;
+}
+
+footer .botonregreso a{
+
+	display: block;
+	padding: 15px 30px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+footer .botonregreso:hover{
+
+	background: darkred;
+}
+
+footer .botonregreso:hover a{
+	color: white;
+}

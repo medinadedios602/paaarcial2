@@ -1,0 +1,124 @@
+*{
+
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+
+	background: #1b263b;
+	color: white;
+	font-family: ;
+}
+
+header{
+
+	background: #415a77;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	}
+
+header .inicio img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 3px solid white;
+	
+}
+
+main .contenedor{
+
+
+width: 90%;
+	margin: 0 auto;
+	background: #1b263b;
+}
+
+main .practica .foto{
+	width: 150px;
+	height: 150px;
+	background: salmon;
+	border: 5px solid #1b263b;
+}
+
+main .practica .foto:hover{
+	border: 5px solid white;
+	transition: 1s;
+}
+
+main .contenedor .practicas{
+
+	display: flex;
+	justify-content: space-evenly;
+}
+
+main .practicas .boton{
+
+	margin: 15px 0;
+	text-align: center;
+
+}
+
+main .practicas .practica img{
+	width: 100%;
+	height: 100%;
+}
+
+.boton{
+	border: 2px solid #0077bff;
+	border-radius: 6px;
+	background-color: black;
+	display: inline-block;
+	margin: 10px;
+	overflow: hidden;
+	transition: all 0.3s ease;
+}
+
+.boton a{
+
+	display: block;
+	padding: 15px 30px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+.boton:hover{
+
+	background-color: darkred;
+
+}
+
+.boton:hover a{
+
+	color: white;
+}
+
+footer{
+
+	background: black;
+
+	font-size: 25px;
+
+	text-align: center;
+	padding: 25px;
+	color: #d8e2dc;
+
+}
+
+
+footer a{
+
+	color: #d8e2dc;
+	display: inline-block;
+	margin: 10px 15px;
+
+
+}
+
+footer a:hover{
+	color: darkred;
+}
